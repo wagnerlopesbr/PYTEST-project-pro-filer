@@ -1,11 +1,19 @@
 """Arquivo que estudantes devem editar"""
 
 
+def bar_char_counter(pwd: str) -> int:
+    count = 0
+    for char in pwd:
+        if char == "/":
+            count += 1
+    return count
+
+
 def show_deepest_file(context):
     if not context["all_files"]:
         print("No files found")
     else:
-        deepest_file = max(context["all_files"], key=len)
+        deepest_file = max(context["all_files"], key=bar_char_counter)
         print(f"Deepest file: {deepest_file}")
 
 
