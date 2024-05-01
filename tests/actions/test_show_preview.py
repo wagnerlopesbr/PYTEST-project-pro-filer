@@ -1,4 +1,4 @@
-from pro_filer.actions.main_actions import show_preview  # NOQA
+from pro_filer.actions.main_actions import show_preview # NOQA
 import pytest
 from typing import Dict, List, Tuple
 
@@ -28,6 +28,16 @@ from typing import Dict, List, Tuple
         (
             {"all_files": [], "all_dirs": ["dir1", "dir2"]},
             "First 5 directories: ['dir1', 'dir2']\n"
+        ),
+        (
+            {"all_files": [
+                "file1.txt", "file2.txt", "file3.txt",
+                "file4.txt", "file5.txt", "file6.txt"
+                ],
+             "all_dirs": ["dir1", "dir2", "dir3", "dir4", "dir5", "dir6"]},
+            "First 5 files: ['file1.txt'" +
+            ", 'file2.txt', 'file3.txt', 'file4.txt', 'file5.txt']\n"
+            "First 5 directories: ['dir1', 'dir2', 'dir3', 'dir4', 'dir5']\n"
         ),
     ]
 )
