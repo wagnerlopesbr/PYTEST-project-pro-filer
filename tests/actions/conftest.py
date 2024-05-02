@@ -8,3 +8,8 @@ def dir(tmp_path):
     file = dir / "file.txt"
     file.write_text("GABIGOL VAI CRAVAR HOJE")
     return str(file)
+
+
+@pytest.fixture
+def tmp_path(tmpdir):
+    return tmpdir
