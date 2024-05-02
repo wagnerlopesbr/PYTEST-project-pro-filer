@@ -1,10 +1,33 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# ProFiler (pytest) - Project
+
+### English:
+
+#### What did I develop?
+
+I worked on bug fixes and test automation to ensure the CLI interface to work properly.
+
+#### Skills tested in the project:
+
+- Identify bugs using VS Code Debugger and fix them.
+- Create automated tests for python code using pytest.
+- @pytest.fixture use.
+- @pytest.mark.parametrize use.
+- "tmp_path" use.
+- "capsys" use.
+
+---
+
+### Português:
+
+#### O que desenvolvi?
+
+Trabalhei na correção de bugs e automação de testes para garantir que a interface CLI funcione corretamente.
+
+#### Habilidades testadas no projeto:
+
+- Identificar bugs através do Debugger do VS Code e corrigí-los.
+- Criar testes automatizados para código Python utilizando pytest.
+- Uso de @pytest.fixture.
+- Uso de @pytest.mark.parametrize.
+- Uso de "tmp_path".
+- Uso de "capsys".
